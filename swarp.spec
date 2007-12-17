@@ -10,7 +10,6 @@ Release:        %{release}
 License: 	GPL
 URL:		http://terapix.iap.fr/soft/swarp/
 #Requires:	
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 Packager:	Antoine Ginies <aginies@mandrakesoft.com>
 Source:         ftp://ftp.iap.fr/pub/from_users/bertin/swarp/%{name}-%{version}.tar.bz2
 #Source1:
