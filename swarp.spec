@@ -5,6 +5,7 @@
 Name:           %{name}
 Summary: 	Program that resamples and co-adds together FITS images
 Group:		Graphics		
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Version:        %{version}
 Release:        %{release}
 License: 	GPL
