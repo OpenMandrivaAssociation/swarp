@@ -1,6 +1,6 @@
 %define name   swarp 
 %define version 2.10
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name:           %{name}
 Summary: 	Program that resamples and co-adds together FITS images
