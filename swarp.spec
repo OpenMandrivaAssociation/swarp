@@ -23,7 +23,7 @@ any arbitrary astrometric projection defined in the WCS standard.
 rm -rf %{RPM_BUILD_ROOT}
 %setup -q -n %{name}-%{version}
 #%patch0 -p0
-#cp %{SOURCE3} $RPM_BUILD_DIR/%{name}-%{version}/
+#cp %{SOURCE3} %{_builddir}/%{name}-%{version}/
 
 %build
 %configure 
