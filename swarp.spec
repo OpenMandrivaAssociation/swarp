@@ -9,7 +9,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Version:        %{version}
 Release:        %{release}
 License: 	GPL
-URL:		http://terapix.iap.fr/soft/swarp/
+URL:		https://terapix.iap.fr/soft/swarp/
 #Requires:	
 Source:         ftp://ftp.iap.fr/pub/from_users/bertin/swarp/%{name}-%{version}.tar.bz2
 #Source1:
